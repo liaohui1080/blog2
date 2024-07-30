@@ -1,0 +1,27 @@
+{
+  "name": "vuepress1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev vuepress_docs & pnpm run tailwind-watch",
+    "docs:build": "vuepress build vuepress_docs",
+    "tailwind-watch": "tailwindcss -c ./tailwind.config.js -i ./main.css -o ./vuepress_docs/.vuepress/public/css/css.css --watch",
+    "docs:server": "vuepress dev vuepress_docs",
+    "taobaonpm": "--registry=https://registry.npmmirror.com",
+    "pm2:start": "pm2 start pm2.config.js",
+    "pm2:stopAll": "pm2 ls && pm2 stop all && pm2 delete all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "begda-ui": "^0.0.32",
+    "less-loader": "7.3.0",
+    "lodash": "^4.17.21",
+    "tailwindcss": "^3.1.8",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  }
+}
