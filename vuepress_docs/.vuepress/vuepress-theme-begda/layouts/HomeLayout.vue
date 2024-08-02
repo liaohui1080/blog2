@@ -219,7 +219,7 @@ h4 {
   padding-top: 180px;
   text-align: center;
   background-color: #02407a;
-  background-image: url('../images/bg9.jpg');
+  background-image: url('../images/bg2.jpg');
   background-size: 100% 100%;
   color: #ffffff;
 }
