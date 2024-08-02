@@ -10,7 +10,7 @@ order: 0
     <div v-for="(item,key) in menus" >
         <h3><a :href="item.title">{{item.title}}</a></h3>
         <div v-for="(item2,key2) in item.children" >
-            ---<a :href="item.title+'/'+item2">{{item2}}</a>
+            ---<a :href="item.title+'/'+item2+'.html'">{{item2}}</a>
         </div>
     </div>
 </div>
