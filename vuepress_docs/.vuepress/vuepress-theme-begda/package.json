@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-theme-begda",
+  "version": "0.0.1",
+  "description": "A simple and beautiful vuepress Blog & Doc theme.",
+  "keywords": [
+    "vuepress",
+    "vue",
+    "theme"
+  ],
+  "homepage": "https://vuepress-theme-reco.recoluan.com",
+  "bugs": {
+    "url": "https://github.com/vuepress-reco/vuepress-theme-reco/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-reco/vuepress-theme-reco.git"
+  },
+  "license": "MIT",
+  "author": "liaohui1080",
+  "main": "index.js",
+  "dependencies": {
+
+  }
+
+}

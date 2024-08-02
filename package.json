@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev vuepress_docs & pnpm run tailwind-watch",
+    "docs:dev": "vuepress dev vuepress_docs",
     "docs:build": "vuepress build vuepress_docs",
-    "tailwind-watch": "tailwindcss -c ./tailwind.config.js -i ./main.css -o ./vuepress_docs/.vuepress/public/css/css.css --watch",
-    "docs:server": "vuepress dev vuepress_docs",
+    "tailwind-watch": "tailwindcss -c ./tailwind.config.js -i ./main.css -o vuepress_docs/.vuepress/vuepress-theme-begda/styles/css.css --watch",
     "taobaonpm": "--registry=https://registry.npmmirror.com",
     "pm2:start": "pm2 start pm2.config.js",
     "pm2:stopAll": "pm2 ls && pm2 stop all && pm2 delete all"
@@ -16,12 +15,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "begda-ui": "^0.0.32",
+    "begda-ui": "^0.0.33",
     "less-loader": "7.3.0",
     "lodash": "^4.17.21",
     "tailwindcss": "^3.1.8",
+    "vue-markdown-loader": "^2.5.0",
     "vuepress": "^1.9.10",
     "vuepress-plugin-auto-sidebar": "^2.3.2",
-    "vuepress-plugin-demo-container": "^0.2.0"
+    "vuepress-plugin-demo-container": "^0.2.0",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.52"
   }
 }
