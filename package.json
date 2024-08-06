@@ -16,13 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "begda-ui": "^0.0.33",
-    "less-loader": "7.3.0",
     "lodash": "^4.17.21",
     "tailwindcss": "^3.1.8",
-    "vue-markdown-loader": "^2.5.0",
     "vuepress": "^1.9.10",
     "vuepress-plugin-auto-sidebar": "^2.3.2",
-    "vuepress-plugin-demo-container": "^0.2.0",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.52"
+    "vuepress-plugin-demo-container": "^0.2.0"
   }
 }
