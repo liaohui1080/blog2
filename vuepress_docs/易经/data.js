@@ -87,6 +87,7 @@ export const gua64=[
 	{value: 62,text: "小过",name: "xiaoguo",icon: "xiaoguo",xiang:["雷","山"],gua:["震","艮"]},
 	{value: 63,text: "既济",name: "jiji",icon: "jiji",xiang:["水","火"],gua:["坎","离"]},
 	{value: 64,text: "未济",name: "weiji",icon: "weiji",xiang:["火","水"],gua:["离","坎"]},
+	{ge:'是为下经三十四'}
 	
 ]
 
