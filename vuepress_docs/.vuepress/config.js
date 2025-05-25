@@ -24,7 +24,7 @@ module.exports = {
     },
     head: [
         // ['link', { rel: 'stylesheet', href: './css/css.css' }],
-        ['link', {rel: 'stylesheet', href: '//at.alicdn.com/t/font_1706538_0cfbwmm8gq77.css'}],
+        ['link', {rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_1706538_0cfbwmm8gq77.css'}],
         ['viewport', {name: 'viewport', content: 'width=device-width, initial-scale=1'}],
 
         //高德地图key
