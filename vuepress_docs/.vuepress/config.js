@@ -9,7 +9,7 @@ module.exports = {
     //     config.resolve.alias.set('core-js/library/fn', 'core-js/features');
     // },
     // base: '/begda-ui/', //连接的基础路径
-    base: '/blog2/', //连接的基础路径
+    base: '/', //连接的基础路径
     port: 4002,
     dest: path.resolve('docs'), //编译输出目录
     // 国际化相关
