@@ -17,6 +17,7 @@
   "dependencies": {
     "begda-ui": "^0.0.33",
     "lodash": "^4.17.21",
+    "lru-cache": "^5.1.1",
     "tailwindcss": "^3.1.8",
     "vuepress": "^1.9.10",
     "vuepress-plugin-auto-sidebar": "^2.3.2",

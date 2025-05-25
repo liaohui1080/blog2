@@ -115,3 +115,9 @@ const app = createApp(App)
 app.use(pinia)
 app.mount('#app')
 ```
+
+## VueUse
+
+VueUse 是基于 组合式 API 的实用函数集合。在继续之前，我们假设你已经熟悉 组合式 API 的基本思想。
+
+> [官网](https://vueuse.nodejs.cn/guide/)
