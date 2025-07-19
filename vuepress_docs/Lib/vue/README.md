@@ -121,3 +121,8 @@ app.mount('#app')
 VueUse 是基于 组合式 API 的实用函数集合。在继续之前，我们假设你已经熟悉 组合式 API 的基本思想。
 
 > [官网](https://vueuse.nodejs.cn/guide/)
+
+
+## vue-hooks-plus
+vue-hooks-plus 实用函数集合。和VueUse 差不多
+> [vue-hooks-plus](https://inhiblabcore.github.io/vue-hooks-plus/zh/hooks/useRequest/quick-start)
